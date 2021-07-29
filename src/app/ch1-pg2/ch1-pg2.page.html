@@ -1,0 +1,26 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <div class="imgContainer">
+    <img src="../../assets/images/flower2.jpg">
+  </div>
+</ion-content>
+
+<span class="navFooter">Page 2</span>
+<br>
+
+<!-- Footer without a border -->
+<ion-footer class="ion-no-border">
+  <ion-toolbar class="navFooter">
+    <ion-button color="success" expand="fill" fill="solid" [routerDirection]="'root'" [routerLink]="['/chapter1']">Previous Page</ion-button>
+    <ion-button color="success" expand="fill" fill="solid" [routerDirection]="'root'" [routerLink]="['/chapter2']">Next Page</ion-button>
+  </ion-toolbar>
+</ion-footer>
